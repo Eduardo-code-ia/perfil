@@ -1,0 +1,172 @@
+
+/* CONFIGURACIÓN GENERAL */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f7fa;
+    color: #212529;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #102a43;
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #48d6ad;
+}
+
+/* INICIO */
+
+#inicio {
+    background: linear-gradient(135deg, #102a43, #176b70);
+    color: white;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+#inicio img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #48d6ad;
+    margin-bottom: 25px;
+}
+
+#inicio h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#inicio p {
+    font-size: 18px;
+    color: #dce8ee;
+}
+
+/* TÍTULOS */
+
+section h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #102a43;
+}
+
+/* SOBRE MÍ */
+
+#perfil {
+    padding: 90px 0;
+}
+
+/* TRAYECTOS */
+
+#trayectos {
+    background-color: #e8f1f5;
+    padding: 90px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px #00000020;
+}
+
+.card-title {
+    color: #176b70;
+    font-weight: bold;
+}
+
+/* PROYECTOS */
+
+#proyectos {
+    padding: 90px 0;
+}
+
+#proyectos .card {
+    height: 100%;
+}
+
+#proyectos .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#proyectos .btn {
+    margin-top: auto;
+}
+
+/* BOTONES */
+
+.btn-personalizado {
+    background-color: #48d6ad;
+    color: #102a43;
+    border: none;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-personalizado:hover {
+    background-color: #ffffff;
+    color: #102a43;
+}
+
+/* CONTACTO */
+
+#contacto {
+    background-color: #e8f1f5;
+    padding: 80px 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #102a43;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    #inicio h1 {
+        font-size: 32px;
+    }
+
+    #inicio {
+        text-align: center;
+        padding: 60px 15px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 50px 15px;
+    }
+}
